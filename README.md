@@ -1,6 +1,6 @@
-# Laravel Config Writer
+# Laravel Config Updater
 
-Write to Laravel Config files and maintain file integrity.
+Update Laravel Config files and maintain file integrity.
 
 This library is an extension of the Config component used by Laravel. It adds the ability to write to configuration files.
 
@@ -16,7 +16,7 @@ This provider is designed to be used in Laravel from `5.4` version.
 
 Install through composer:
 ```
-composer require "daftspunk/laravel-config-writer"
+composer require "qoraiche/laravel-config-updater"
 ```
 
 Add this to `app/config/app.php` under the 'providers' key:
